@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'propertyBinding';
+
+  dynamic:string="Nirmit";
+
+  enable:boolean = false;
+
+  appstatus:boolean = true;
+  status1:string = "Online";
+  status2:string = "Offline";
 }
